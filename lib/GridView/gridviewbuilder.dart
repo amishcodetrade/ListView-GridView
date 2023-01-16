@@ -111,7 +111,7 @@ class Gbuilder extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Container(
+                  SizedBox(
                       width: 80, height: 60, child: Image.asset(images[index])),
                   Text(
                     name[index],
