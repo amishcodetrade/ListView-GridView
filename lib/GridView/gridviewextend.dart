@@ -35,13 +35,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/male.jpg')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -70,13 +74,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/m1.png')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -105,13 +113,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/m2.jpeg')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -140,13 +152,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/m3.jpg')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -175,13 +191,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/m4.png')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -210,13 +230,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/male.jpg')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -245,13 +269,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/m1.png')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -280,13 +308,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/m1.png')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -315,13 +347,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/m4.png')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
@@ -350,13 +386,17 @@ class Gextend extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
+                  children: [
+                    SizedBox(
+                        width: 80,
+                        height: 60,
+                        child: Image.asset('assets/m2.jpeg')),
                     Text(
                       "Name : Amish Kajavadra",
                       style: TextStyle(
                           fontSize: 15,
                           fontWeight: FontWeight.bold,
-                          color: Colors.white60),
+                          color: Colors.white),
                     ),
                     Text(
                       "Phone : 9876657678",
