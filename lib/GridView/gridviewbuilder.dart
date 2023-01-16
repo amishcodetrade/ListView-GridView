@@ -28,6 +28,52 @@ class Gbuilder extends StatelessWidget {
       'kenal',
       'bholu'
     ];
+    var city = [
+      'surat',
+      'rajkot',
+      'mumbai',
+      'delhi',
+      'ahemdabad',
+      'vadodra',
+      'jamnagar',
+      'vadodra',
+      'surendnagar',
+      'rajkot',
+      'junagath',
+      'surat',
+      'surat',
+      'jamnagar',
+      'jamnagar',
+      'vadodra',
+      'gandhinagar',
+      'rajkot',
+      'junagadha',
+      'bhavnagar',
+      'porbandar'
+    ];
+    var year = [
+      '2019',
+      '2018',
+      '2017',
+      '2016',
+      '2015',
+      '2001',
+      '2000',
+      '2001',
+      '2188',
+      '2100',
+      '1999',
+      '1998',
+      '1997',
+      '2017',
+      '2016',
+      '2015',
+      '2014',
+      '2012',
+      '2011',
+      '2010',
+      '2009'
+    ];
     var color = [
       Colors.purple,
       Colors.orange,
@@ -40,6 +86,18 @@ class Gbuilder extends StatelessWidget {
       Colors.blueGrey,
       Colors.yellow
     ];
+    List<String> images = [
+      "assets/male.jpg",
+      "assets/m1.png",
+      "assets/m2.jpeg",
+      "assets/m3.jpg",
+      "assets/m4.png",
+      "assets/male.jpg",
+      "assets/m1.png",
+      "assets/m3.jpg",
+      "assets/m2.jpeg",
+      "assets/m4.png"
+    ];
     return Scaffold(
       appBar: AppBar(
         title: const Text('GridView Builder'),
@@ -49,12 +107,34 @@ class Gbuilder extends StatelessWidget {
           return Container(
             color: color[index],
             child: Center(
-              child: Text(
-                name[index],
-                style: const TextStyle(
-                    fontSize: 20,
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Container(
+                      width: 80, height: 60, child: Image.asset(images[index])),
+                  Text(
+                    name[index],
+                    style: const TextStyle(
+                        fontSize: 20,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    year[index],
+                    style: const TextStyle(
+                        fontSize: 22,
+                        color: Colors.red,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    city[index],
+                    style: const TextStyle(
+                        fontSize: 23,
+                        color: Colors.teal,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ],
               ),
             ),
           );
